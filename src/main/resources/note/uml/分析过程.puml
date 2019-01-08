@@ -1,0 +1,14 @@
+@startuml
+
+class AttributeSource
+abstract class TokenStream
+class XxxTokenizer
+class XxxFilter
+
+AttributeSource <|-- TokenStream
+TokenStream <|-- XxxTokenizer
+TokenStream <|-- XxxFilter
+
+
+
+@enduml
