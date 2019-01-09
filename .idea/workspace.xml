@@ -116,11 +116,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1358" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1471" />
+    <option name="y" value="40" />
     <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -236,7 +236,7 @@
       <updated>1546925574865</updated>
       <workItem from="1546925577398" duration="3095000" />
       <workItem from="1546928735640" duration="147000" />
-      <workItem from="1546929056948" duration="4991000" />
+      <workItem from="1546929056948" duration="6163000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1546946313221</created>
@@ -249,11 +249,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8233000" />
+    <option name="totallyTimeSpent" value="9405000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1382" height="784" extended-state="7" />
-    <editor active="true" />
+    <frame x="1318" y="91" width="1382" height="744" extended-state="0" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" weight="0.2246596" />
       <window_info anchor="right" id="Palette" order="3" />
