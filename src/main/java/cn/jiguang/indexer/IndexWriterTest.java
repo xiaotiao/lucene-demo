@@ -1,5 +1,6 @@
-package cn.jiguang.index;
+package cn.jiguang.indexer;
 
+import cn.jiguang.common.Base;
 import org.apache.commons.io.FileUtils;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.DateTools;
@@ -20,18 +21,12 @@ import java.util.Collection;
 import java.util.Date;
 import java.util.Properties;
 
-public class IndexWriterTest {
+public class IndexWriterTest extends Base {
 
     IndexWriter writer;
-    Directory directory;
-    File indexDir;
-    File dataDir;
 
     @Before
     public void setUp() throws Exception {
-        indexDir = new File(System.getProperty("user.dir")+"/doc/index_dir");
-        dataDir = new File(System.getProperty("user.dir")+"/doc/data_dir");
-        directory = FSDirectory.open(indexDir);
         writer = new IndexWriter(directory, new StandardAnalyzer(Version.LUCENE_30), true,
                 IndexWriter.MaxFieldLength.UNLIMITED);
     }
@@ -43,7 +38,7 @@ public class IndexWriterTest {
         Collection<File> fileCollection = FileUtils.listFiles(dataDir, new String[]{"properties"}, true);
         for(File file: fileCollection){
             Document doc = createDocument(dataDir.getAbsolutePath(), file);
-            System.out.println("index file: "+file.getAbsolutePath());
+            System.out.println("indexer file: "+file.getAbsolutePath());
             writer.addDocument(doc);
         }
         int numDocs = writer.numDocs();
