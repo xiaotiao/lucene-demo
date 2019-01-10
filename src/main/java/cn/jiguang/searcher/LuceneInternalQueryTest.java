@@ -18,8 +18,10 @@ import org.junit.Test;
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.List;
 
 import static cn.jiguang.common.Constant.*;
+import static java.util.stream.Collectors.toList;
 
 /**
  * 常见的Lucene内置Query查询器
@@ -43,7 +45,18 @@ public class LuceneInternalQueryTest extends Base {
     public void testTermQuery() throws IOException {
         Query query = new TermQuery(new Term("isbn","9781935182023"));
         TopDocs topDocs = searcher.search(query, 10);
-        printDocumentList(topDocs);
+        printDocumentList(searcher,topDocs);
+    }
+
+    /**
+     *  author多值字段搜索
+     * @throws Exception
+     */
+    @Test
+    public void testMultiFieldSearch() throws Exception {
+        Query query = new TermQuery(new Term("author","Erik Hatcher"));
+        TopDocs topDocs = searcher.search(query, 10);
+        printDocumentList(searcher,topDocs);
     }
 
 
@@ -56,7 +69,7 @@ public class LuceneInternalQueryTest extends Base {
     public void testTermRangeQuery() throws Exception {
         TermRangeQuery query = new TermRangeQuery("title2","d","j",true,true);
         TopDocs topDocs = searcher.search(query, 10);
-        printDocumentList(topDocs);
+        printDocumentList(searcher,topDocs);
     }
 
 
@@ -68,7 +81,7 @@ public class LuceneInternalQueryTest extends Base {
     public void testNumericRangeQuery() throws Exception{
         NumericRangeQuery query = NumericRangeQuery.newIntRange("pubmonth",200605,200609,true,true);
         TopDocs topDocs = searcher.search(query, 10);
-        printDocumentList(topDocs);
+        printDocumentList(searcher,topDocs);
     }
 
 
@@ -103,7 +116,7 @@ public class LuceneInternalQueryTest extends Base {
 
         TopDocs topDocs = searcher.search(searchingBooks2010, 10);
 
-        printDocumentList(topDocs);
+        printDocumentList(searcher,topDocs);
     }
 
 
@@ -129,27 +142,7 @@ public class LuceneInternalQueryTest extends Base {
         System.out.println("totalHits: "+topDocs.totalHits);
     }
 
-    private void printDocumentList(TopDocs topDocs){
-        try{
-            System.out.println("totalHits = "+topDocs.totalHits);
-            for (ScoreDoc sDoc : topDocs.scoreDocs){
-                Document doc = searcher.doc(sDoc.doc);
-                System.out.println("----------------");
-                System.out.printf("%s: %s\n",ISBN,doc.get(ISBN));
-                System.out.printf("%s: %s\n",CATEGORY,doc.get(CATEGORY));
-                System.out.printf("%s: %s\n",TITLE,doc.get(TITLE));
-                System.out.printf("%s: %s\n",TITLE2,doc.get(TITLE2));
-                System.out.printf("%s: %s\n",AUTHOR,doc.get(AUTHOR));
-                System.out.printf("%s: %s\n",URL,doc.get(URL));
-                System.out.printf("%s: %s\n",SUBJECT,doc.get(SUBJECT));
-                System.out.printf("%s: %s\n",PUBMONTH,doc.get(PUBMONTH));
-                System.out.printf("%s: %s\n",CONTENTS,doc.get(CONTENTS));
-            }
-        }catch (Exception e){
-            throw new RuntimeException(e);
-        }
 
-    }
 
 
 

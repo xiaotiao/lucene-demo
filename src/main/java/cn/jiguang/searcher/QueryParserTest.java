@@ -67,31 +67,8 @@ public class QueryParserTest extends Base {
         System.out.println("is TermRangeQuery: "+ Boolean.toString(query instanceof TermRangeQuery));
 
         Query query02 = new QueryParser(Version.LUCENE_30,"subject",analyzer).parse("title2:{Q TO V}");
-        printDocumentList(searcher.search(query,10));
-        printDocumentList(searcher.search(query02,10));
-    }
-
-
-
-    private void printDocumentList(TopDocs topDocs){
-        try{
-            System.out.println("totalHits = "+topDocs.totalHits);
-            for (ScoreDoc sDoc : topDocs.scoreDocs){
-                Document doc = searcher.doc(sDoc.doc);
-                System.out.println("----------------");
-                System.out.printf("%s: %s\n",ISBN,doc.get(ISBN));
-                System.out.printf("%s: %s\n",CATEGORY,doc.get(CATEGORY));
-                System.out.printf("%s: %s\n",TITLE,doc.get(TITLE));
-                System.out.printf("%s: %s\n",TITLE2,doc.get(TITLE2));
-                System.out.printf("%s: %s\n",AUTHOR,doc.get(AUTHOR));
-                System.out.printf("%s: %s\n",URL,doc.get(URL));
-                System.out.printf("%s: %s\n",SUBJECT,doc.get(SUBJECT));
-                System.out.printf("%s: %s\n",PUBMONTH,doc.get(PUBMONTH));
-            }
-        }catch (Exception e){
-            throw new RuntimeException(e);
-        }
-
+        printDocumentList(searcher,searcher.search(query,10));
+        printDocumentList(searcher,searcher.search(query02,10));
     }
 
     @After

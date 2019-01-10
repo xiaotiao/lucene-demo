@@ -88,7 +88,7 @@ public class IndexWriterTest extends Base {
                 Field.Index.NOT_ANALYZED_NO_NORMS,
                 Field.TermVector.WITH_POSITIONS_OFFSETS));
 
-        // split multiple authors into unique field instances
+        // 多值域
         String[] authors = author.split(",");
         for (String a : authors) {
             doc.add(new Field("author",
@@ -135,6 +135,5 @@ public class IndexWriterTest extends Base {
         writer.close();
         directory.close();
     }
-
 
 }
