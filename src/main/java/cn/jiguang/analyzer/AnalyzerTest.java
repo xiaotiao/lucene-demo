@@ -33,15 +33,6 @@ public class AnalyzerTest {
         }
     }
 
-    @Test
-    public void testKoolKat() throws Exception {
-        Directory directory = new RAMDirectory();
-    }
-
-    @Test
-    public void testJumps() throws Exception {
-    }
-
     private static void analyze(String text) throws IOException {
         System.out.println("Analyzing \""+ text +"\"");
         for(Analyzer analyzer : analyzers){

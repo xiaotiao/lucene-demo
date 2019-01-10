@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41e63e78-318c-4baf-950f-0613cccc254f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/note/knowledge" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/Lucene-core入门知识讲解.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Lucene-core基础知识讲解.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index_dir/_0.cfs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index_dir/segments.gen" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index_dir/segments_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jiguang/index/IndexWriterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jiguang/indexer/IndexWriterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Lucene-core基础知识讲解.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Lucene-core基础知识讲解.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jiguang/analyzer/AnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jiguang/analyzer/AnalyzerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/note/analysis" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,17 +18,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Base.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/common/Base.java">
+    <leaf>
+      <file leaf-file-name="IndexWriterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/indexer/IndexWriterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-411">
+              <caret line="78" column="29" lean-forward="true" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -37,8 +31,8 @@
       <file leaf-file-name="LuceneInternalQueryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/LuceneInternalQueryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1533">
-              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+            <state relative-caret-position="2625">
+              <caret line="141" column="34" selection-start-line="141" selection-start-column="34" selection-end-line="141" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,17 +43,38 @@
       <file leaf-file-name="NearRealTimeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/NearRealTimeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="-147">
+              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueryParserTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QueryParserTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/QueryParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="-81">
+              <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExplainerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/ExplainerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnalyzerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/analyzer/AnalyzerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -82,11 +97,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/cn/jiguang/analyzer/AnalyzerUtils.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/note/analysis" />
         <option value="$PROJECT_DIR$/src/main/resources/note/uml/分析过程.puml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/jiguang/index/IndexWriterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/jiguang/common/Constant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/jiguang/analyzer/AnalyzerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/SearchingIndexer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/BasicSearchingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/jiguang/common/Base.java" />
@@ -94,6 +107,8 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/ExplainerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/LuceneInternalQueryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/QueryParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/note/analysis" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/jiguang/analyzer/AnalyzerTest.java" />
       </list>
     </option>
   </component>
@@ -136,8 +151,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="436" />
+    <option name="y" value="55" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -149,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -205,20 +219,32 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jiguang" type="462c0819:PsiDirectoryNode" />
-              <item name="searcher" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lucene-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="lucene-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jiguang" type="462c0819:PsiDirectoryNode" />
+              <item name="indexer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lucene-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lucene-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jiguang" type="462c0819:PsiDirectoryNode" />
+              <item name="searcher" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,19 +256,19 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\workspace\jiguang\lucene-demo\doc" />
-      <recent name="F:\workspace\jiguang\lucene-demo\src\main\resources" />
-      <recent name="F:\workspace\jiguang\lucene-demo\src\main\resources\note" />
-      <recent name="D:\workspace\company\jiguang\lucene-demo\src\main\resources\note" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\jiguang\lucene-demo\src\main\java\cn\jiguang\searcher" />
+      <recent name="D:\workspace\company\jiguang\lucene-demo\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.jiguang.analyzer" />
       <recent name="cn.jiguang.common" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\workspace\jiguang\lucene-demo\src\main\java\cn\jiguang\searcher" />
-      <recent name="D:\workspace\company\jiguang\lucene-demo\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workspace\jiguang\lucene-demo\doc" />
+      <recent name="F:\workspace\jiguang\lucene-demo\src\main\resources" />
+      <recent name="F:\workspace\jiguang\lucene-demo\src\main\resources\note" />
+      <recent name="D:\workspace\company\jiguang\lucene-demo\src\main\resources\note" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -257,23 +283,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueryParserTest.testToString">
+  <component name="RunManager" selected="JUnit.AnalyzerTest.testAnalyzer">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="BasicSearchingTest.testTerm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnalyzerTest.testAnalyzer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lucene-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.jiguang.searcher.*" />
+          <option name="PATTERN" value="cn.jiguang.analyzer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.jiguang.searcher" />
-      <option name="MAIN_CLASS_NAME" value="cn.jiguang.searcher.BasicSearchingTest" />
-      <option name="METHOD_NAME" value="testTerm" />
+      <option name="PACKAGE_NAME" value="cn.jiguang.analyzer" />
+      <option name="MAIN_CLASS_NAME" value="cn.jiguang.analyzer.AnalyzerTest" />
+      <option name="METHOD_NAME" value="testAnalyzer" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -415,19 +441,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.BasicSearchingTest.testTerm" />
       <item itemvalue="JUnit.ExplainerTest.testExplanation" />
       <item itemvalue="JUnit.LuceneInternalQueryTest.testTermQuery" />
       <item itemvalue="JUnit.QueryParserTest.testQueryParser" />
       <item itemvalue="JUnit.QueryParserTest.testToString" />
+      <item itemvalue="JUnit.AnalyzerTest.testAnalyzer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnalyzerTest.testAnalyzer" />
         <item itemvalue="JUnit.QueryParserTest.testToString" />
         <item itemvalue="JUnit.QueryParserTest.testQueryParser" />
         <item itemvalue="JUnit.LuceneInternalQueryTest.testTermQuery" />
         <item itemvalue="JUnit.ExplainerTest.testExplanation" />
-        <item itemvalue="JUnit.BasicSearchingTest.testTerm" />
       </list>
     </recent_temporary>
   </component>
@@ -446,16 +472,19 @@
       <workItem from="1546929056948" duration="3377000" />
       <workItem from="1547048233021" duration="1020000" />
       <workItem from="1547049266559" duration="576000" />
+      <workItem from="1547075860638" duration="2784000" />
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:xiaotiao/lucene-demo&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1547051525884</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547051525884</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IndexWriterTest_test - 2019.01.10 at 00h 02m 11s.xml">
-      <configuration name="IndexWriterTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IndexWriterTest_indexDocument - 2019.01.10 at 00h 03m 43s.xml">
-      <configuration name="IndexWriterTest.indexDocument" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BasicSearchingTest_testTerm - 2019.01.10 at 00h 19m 32s.xml">
       <configuration name="BasicSearchingTest.testTerm" configurationId="JUnit" />
     </history-entry>
@@ -480,9 +509,15 @@
     <history-entry file="QueryParserTest_testQueryParser - 2019.01.10 at 00h 27m 41s.xml">
       <configuration name="QueryParserTest.testQueryParser" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="QueryParserTest_testQueryParser - 2019.01.10 at 00h 30m 17s.xml">
+      <configuration name="QueryParserTest.testQueryParser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryParserTest_testToString - 2019.01.10 at 00h 30m 21s.xml">
+      <configuration name="QueryParserTest.testToString" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9618000" />
+    <option name="totallyTimeSpent" value="13257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -490,85 +525,64 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.3287234" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.40319148" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13326226" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33582088" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3287234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="PlantUML" order="3" visible="true" weight="0.4720121" />
-      <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.40319148" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3287234" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3287234" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13326226" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.3290938" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3287234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33585477" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.40319148" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="PlantUML" order="8" visible="true" weight="0.4720121" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3287234" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32980332" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +593,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feature: 添加索引类" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: 添加索引类" />
+    <MESSAGE value="Merge branch 'master' of github.com:xiaotiao/lucene-demo&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of github.com:xiaotiao/lucene-demo&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/analyzer/AnalyzerUtils.java">
@@ -610,7 +625,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/note/analysis">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/note/knowledge">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -638,7 +653,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/note/analysis">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/note/knowledge">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -666,7 +681,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/note/analysis">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/note/knowledge">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -684,7 +699,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/note/analysis">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/note/knowledge">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -747,7 +762,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/note/analysis">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/note/knowledge">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -775,7 +790,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/note/analysis">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/note/knowledge">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -803,7 +818,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/note/analysis">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/note/knowledge">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -821,32 +836,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/note/analysis">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/common/Constant.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/TermQueryTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/analyzer/AnalyzerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/analyzer/AnalyzerUtils.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -855,54 +846,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/SearchingIndexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/indexer/IndexWriterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/BasicSearchingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/ExplainerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/LuceneInternalQueryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1533">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/NearRealTimeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/SearchingIndexer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/common/Base.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -915,10 +859,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/TermQueryTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/BasicSearchingTest.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/note/knowledge">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/indexer/IndexWriterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-411">
+          <caret line="78" column="29" lean-forward="true" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/LuceneInternalQueryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2625">
+          <caret line="141" column="34" selection-start-line="141" selection-start-column="34" selection-end-line="141" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/NearRealTimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/QueryParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="-81">
+          <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/searcher/ExplainerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/jiguang/analyzer/AnalyzerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
